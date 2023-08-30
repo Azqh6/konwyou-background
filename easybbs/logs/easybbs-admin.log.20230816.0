@@ -1,0 +1,31 @@
+2023-08-16 14:36:53 [INFO][com.easybbs.EasybbsAdminApplication][logStarting][55]-> Starting EasybbsAdminApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 15092 (C:\Users\ZQH\Desktop\easybbs\easybbs-admin-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-16 14:36:53 [INFO][com.easybbs.EasybbsAdminApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-16 14:36:54 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 7071 (http)
+2023-08-16 14:36:54 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-7071"]
+2023-08-16 14:36:54 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-16 14:36:54 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-16 14:36:54 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-16 14:36:54 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1617 ms
+2023-08-16 14:36:55 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-7071"]
+2023-08-16 14:36:55 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 7071 (http) with context path '/api'
+2023-08-16 14:36:55 [INFO][com.easybbs.EasybbsAdminApplication][logStarted][61]-> Started EasybbsAdminApplication in 3.002 seconds (JVM running for 3.317)
+2023-08-16 14:36:55 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-16 14:36:56 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-16 14:36:57 [INFO][com.easybbs.a][run][25]-> 服务启动成功，开始愉快的开发吧
+2023-08-16 14:37:14 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-16 14:37:14 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-16 14:37:14 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2023-08-16 14:37:24 [ERROR][com.easybbs.b.a.b][a][23]-> 请求错误，请求地址http://localhost:7071/api/login,错误信息:
+com.easybbs.c.a: 图片验证码不正确
+2023-08-16 14:52:53 [ERROR][com.easybbs.b.a.b][a][23]-> 请求错误，请求地址http://localhost:7071/api/user/loadUserList,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-16 14:52:54 [ERROR][com.easybbs.b.a.b][a][23]-> 请求错误，请求地址http://localhost:7071/api/board/loadBoard,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-16 14:52:55 [ERROR][com.easybbs.b.a.b][a][23]-> 请求错误，请求地址http://localhost:7071/api/board/loadBoard,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-16 14:52:55 [ERROR][com.easybbs.b.a.b][a][23]-> 请求错误，请求地址http://localhost:7071/api/board/loadBoard,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-16 14:52:55 [ERROR][com.easybbs.b.a.b][a][23]-> 请求错误，请求地址http://localhost:7071/api/forum/loadArticle,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-16 21:43:56 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=1h2m20s108ms586µs).
+2023-08-16 23:46:38 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=1h2m41s17ms509µs200ns).

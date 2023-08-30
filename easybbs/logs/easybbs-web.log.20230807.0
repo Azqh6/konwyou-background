@@ -1,0 +1,733 @@
+2023-08-07 10:52:28 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 21448 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 10:52:28 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 10:52:29 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 10:52:29 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 10:52:29 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 10:52:29 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 10:52:29 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 10:52:29 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1039 ms
+2023-08-07 10:52:30 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 10:52:30 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 10:52:30 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 1.949 seconds (JVM running for 2.172)
+2023-08-07 10:52:30 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 10:52:31 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 10:52:31 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 10:52:36 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 10:52:36 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 10:52:36 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2023-08-07 16:42:07 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:42:07 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:42:08 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:42:08 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:42:10 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:42:10 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:45:47 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:45:47 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:46:12 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:46:12 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:46:13 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:46:13 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:49:27 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 16:49:27 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:01:56 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:01:56 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:02:11 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:02:11 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:05:26 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:05:27 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:05:37 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:05:37 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:07:27 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:07:27 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:10:12 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:10:12 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:10:47 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:10:47 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:31:23 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:31:23 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:34:56 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:34:56 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:34:57 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:34:57 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:35:08 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:35:08 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:35:17 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:35:17 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:41:06 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 25540 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 17:41:06 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 17:41:07 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 17:41:07 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 17:41:07 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 17:41:07 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 17:41:07 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 17:41:07 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1170 ms
+2023-08-07 17:41:07 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 17:41:07 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 17:41:07 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 2.057 seconds (JVM running for 2.282)
+2023-08-07 17:41:08 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 17:41:08 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 17:41:08 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 17:41:19 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 17:41:19 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 17:41:19 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 2 ms
+2023-08-07 17:41:32 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 17:41:32 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 17:42:00 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:42:00 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:39 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:39 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:39 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:39 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:39 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:39 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:40 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:41 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:42 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:44:42 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:45:45 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:45:45 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:46:18 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:46:18 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:46:25 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:46:25 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:46:45 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:46:45 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:47:24 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:47:24 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:47:43 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:47:43 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:47:56 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 28960 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 17:47:56 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 17:47:57 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 17:47:57 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 17:47:57 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 17:47:57 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 17:47:57 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 17:47:57 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1109 ms
+2023-08-07 17:47:58 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 17:47:58 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 17:47:58 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 1.953 seconds (JVM running for 2.174)
+2023-08-07 17:47:58 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 17:47:58 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 17:47:58 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 17:48:06 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 17:48:06 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 17:48:06 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2023-08-07 17:48:12 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 17:48:12 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 17:48:19 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:48:19 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:51:03 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:51:03 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:51:54 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:51:54 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:55:22 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:55:22 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:56:33 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 17:56:33 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:06:27 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:06:27 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:09:33 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:09:33 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:10:24 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:10:24 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:14:42 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 5032 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 18:14:42 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 18:14:43 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 18:14:43 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:14:43 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 18:14:43 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 18:14:43 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 18:14:43 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 942 ms
+2023-08-07 18:14:44 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:14:44 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 18:14:44 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 1.79 seconds (JVM running for 2.019)
+2023-08-07 18:14:44 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 18:14:44 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 18:14:44 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 18:14:53 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 18:14:53 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 18:14:53 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 0 ms
+2023-08-07 18:15:27 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:15:27 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:20:45 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:20:45 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:21:56 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:21:56 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:22:03 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:22:03 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:04 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:04 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:05 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:05 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:05 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:05 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:05 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:05 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:06 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:06 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:06 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:06 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:06 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:06 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:24:16 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:24:16 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:26:14 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:26:14 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:26:33 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:26:33 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:28:44 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:28:44 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:31:49 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:31:49 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:07 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:07 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:31 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:43 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:43 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:45 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:45 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:45 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:45 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:46 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:46 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:46 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:32:46 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:33:50 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:33:50 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:34:38 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:34:38 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:35:13 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:35:13 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:35:41 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:35:41 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:36:00 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:36:00 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:36:13 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:36:13 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:36:23 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 24112 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 18:36:23 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 18:36:24 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 18:36:24 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:36:24 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 18:36:24 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 18:36:24 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 18:36:24 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 980 ms
+2023-08-07 18:36:25 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:36:25 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 18:36:25 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 1.806 seconds (JVM running for 2.029)
+2023-08-07 18:36:25 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 18:36:25 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 18:36:25 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 18:36:34 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 18:36:34 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 18:36:34 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2023-08-07 18:36:39 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:36:39 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:36:51 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 图片验证码不正确
+2023-08-07 18:36:51 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/login,错误信息:
+com.easybbs.c.a: 图片验证码不正确
+2023-08-07 18:37:11 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:11 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:28 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:37:28 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:37:44 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:44 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:45 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:45 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:45 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:45 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:46 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:46 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:46 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:37:46 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:38:05 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 20800 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 18:38:05 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 18:38:06 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 18:38:06 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:38:06 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 18:38:06 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 18:38:06 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 18:38:06 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 932 ms
+2023-08-07 18:38:06 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:38:06 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 18:38:06 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 1.769 seconds (JVM running for 1.993)
+2023-08-07 18:38:06 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 18:38:07 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 18:38:07 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 18:38:12 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 18:38:12 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 18:38:12 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2023-08-07 18:38:21 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:38:21 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:38:30 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:38:30 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:39:41 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:39:41 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:39:53 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:39:53 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:44:07 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:44:07 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:45:02 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:45:02 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:47:27 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 图片验证码不正确
+2023-08-07 18:47:27 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/login,错误信息:
+com.easybbs.c.a: 图片验证码不正确
+2023-08-07 18:47:58 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:47:58 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:48:32 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:48:32 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 18:48:48 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:48:48 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:57:26 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 12772 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 18:57:26 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 18:57:27 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 18:57:27 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:57:27 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 18:57:27 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 18:57:27 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 18:57:27 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 929 ms
+2023-08-07 18:57:27 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:57:27 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 18:57:27 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 1.788 seconds (JVM running for 2.02)
+2023-08-07 18:57:28 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 18:57:28 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 18:57:28 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 18:57:37 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 18:57:37 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 18:57:37 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2023-08-07 18:58:03 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:58:03 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 18:58:45 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 8352 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 18:58:45 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 18:58:46 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 18:58:46 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:58:46 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 18:58:46 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 18:58:46 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 18:58:46 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 943 ms
+2023-08-07 18:58:47 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 18:58:47 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 18:58:47 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 1.767 seconds (JVM running for 1.993)
+2023-08-07 18:58:47 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 18:58:48 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 18:58:48 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 18:59:04 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 18:59:04 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 18:59:04 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2023-08-07 19:00:30 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:00:30 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:05 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:05 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:10 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:10 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:19 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:19 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:32 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:32 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:49 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:49 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:52 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:01:52 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:02:03 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:02:03 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:03:34 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:03:34 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:06:19 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:06:19 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:06:32 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:06:32 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:07:10 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:07:10 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:07:37 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:07:37 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:08:05 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:08:05 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:10:48 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:10:48 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:34:36 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:34:36 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:37:09 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-07 19:37:09 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/postComment,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-07 22:07:28 [WARN][org.springframework.web.servlet.PageNotFound][noHandlerFound][1278]-> No mapping for OPTIONS /api/
+2023-08-07 22:07:28 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/,错误信息:
+org.springframework.web.servlet.NoHandlerFoundException: No handler found for OPTIONS /api/
+	at org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1282)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1045)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:945)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-08-07 22:07:38 [WARN][org.springframework.web.servlet.PageNotFound][noHandlerFound][1278]-> No mapping for OPTIONS /api/
+2023-08-07 22:07:38 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/,错误信息:
+org.springframework.web.servlet.NoHandlerFoundException: No handler found for OPTIONS /api/
+	at org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1282)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1045)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:945)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-08-07 22:07:59 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 28668 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-07 22:07:59 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-07 22:08:00 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-07 22:08:00 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-07 22:08:00 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-07 22:08:00 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-07 22:08:00 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-07 22:08:00 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1326 ms
+2023-08-07 22:08:01 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-07 22:08:01 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-07 22:08:01 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 2.196 seconds (JVM running for 2.426)
+2023-08-07 22:08:01 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-07 22:08:02 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-07 22:08:02 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-07 22:08:18 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 22:08:18 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-07 22:08:18 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 0 ms
+2023-08-07 22:08:21 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 22:08:21 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/comment/doLike,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-07 22:08:30 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 图片验证码不正确
+2023-08-07 22:08:30 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/login,错误信息:
+com.easybbs.c.a: 图片验证码不正确

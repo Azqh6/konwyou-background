@@ -1,0 +1,17 @@
+2023-08-05 10:30:32 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 13784 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-05 10:30:32 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-05 10:30:34 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-05 10:30:34 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-05 10:30:34 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-05 10:30:34 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-05 10:30:34 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-05 10:30:34 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 2091 ms
+2023-08-05 10:30:35 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-05 10:30:35 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-05 10:30:35 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 2.985 seconds (JVM running for 3.224)
+2023-08-05 10:30:35 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-05 10:30:36 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-05 10:30:36 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-05 10:30:40 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-05 10:30:40 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-05 10:30:40 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms

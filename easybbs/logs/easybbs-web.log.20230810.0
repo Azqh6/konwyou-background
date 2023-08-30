@@ -1,0 +1,96 @@
+2023-08-10 10:15:23 [INFO][com.easybbs.EasybbsWebApplication][logStarting][55]-> Starting EasybbsWebApplication v1.0 using Java 1.8.0_371 on LAPTOP-KA81KES4 with PID 15564 (C:\Users\ZQH\Desktop\easybbs\easybbs-web-release-1.0.jar started by ZQH in C:\Users\ZQH\Desktop\easybbs)
+2023-08-10 10:15:23 [INFO][com.easybbs.EasybbsWebApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2023-08-10 10:15:25 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6060 (http)
+2023-08-10 10:15:25 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6060"]
+2023-08-10 10:15:25 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2023-08-10 10:15:25 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-08-10 10:15:25 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2023-08-10 10:15:25 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1248 ms
+2023-08-10 10:15:25 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6060"]
+2023-08-10 10:15:25 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6060 (http) with context path '/api'
+2023-08-10 10:15:25 [INFO][com.easybbs.EasybbsWebApplication][logStarted][61]-> Started EasybbsWebApplication in 2.168 seconds (JVM running for 2.409)
+2023-08-10 10:15:25 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2023-08-10 10:15:27 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2023-08-10 10:15:27 [INFO][com.easybbs.a][run][48]-> 服务启动成功，开始愉快的开发吧
+2023-08-10 10:15:35 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 10:15:35 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2023-08-10 10:15:35 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 0 ms
+2023-08-10 10:15:43 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 图片验证码不正确
+2023-08-10 10:15:43 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/login,错误信息:
+com.easybbs.c.a: 图片验证码不正确
+2023-08-10 10:15:48 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 账号或者密码错误
+2023-08-10 10:15:48 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/login,错误信息:
+com.easybbs.c.a: 账号或者密码错误
+2023-08-10 12:17:16 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:17:16 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:17:16 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/articleDetail4Update,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:17:16 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/loadBoard4Post,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:23:11 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:23:11 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:23:11 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/loadBoard4Post,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:23:11 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/articleDetail4Update,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:32:39 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:32:39 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/loadBoard4Post,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:32:39 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:32:39 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/articleDetail4Update,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:39:56 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:39:56 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:39:56 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/loadBoard4Post,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:39:56 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/articleDetail4Update,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:41:12 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:41:12 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/loadBoard4Post,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:41:12 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:41:12 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/forum/articleDetail4Update,错误信息:
+com.easybbs.c.a: 登录超时，请重新登录
+2023-08-10 12:42:04 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 图片验证码不正确
+2023-08-10 12:42:04 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/login,错误信息:
+com.easybbs.c.a: 图片验证码不正确
+2023-08-10 12:42:10 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 账号或者密码错误
+2023-08-10 12:42:10 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/login,错误信息:
+com.easybbs.c.a: 账号或者密码错误
+2023-08-10 14:13:45 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=22m16s657ms862µs200ns).
+2023-08-10 15:21:43 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=7m56s998ms158µs).
+2023-08-10 19:45:45 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=1h1m28s586ms48µs300ns).
+2023-08-10 22:06:43 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-10 22:06:43 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/ucenter/getUserInfo,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-10 22:06:46 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-10 22:06:46 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/ucenter/getUserInfo,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-10 23:06:01 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-10 23:06:01 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/ucenter/loadUserArticle,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-10 23:07:31 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-10 23:07:31 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/ucenter/loadUserArticle,错误信息:
+com.easybbs.c.a: 请求参数错误
+2023-08-10 23:07:37 [ERROR][com.easybbs.a.a][interceptorDo][116]-> 全局拦截器异常
+com.easybbs.c.a: 请求参数错误
+2023-08-10 23:07:37 [ERROR][com.easybbs.b.b.b][a][24]-> 请求错误，请求地址http://localhost:6060/api/ucenter/loadUserArticle,错误信息:
+com.easybbs.c.a: 请求参数错误
